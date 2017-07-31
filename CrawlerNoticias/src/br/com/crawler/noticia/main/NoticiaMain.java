@@ -34,7 +34,7 @@ public class NoticiaMain {
 			for (int i=0; i < item.length(); i++) {
 				JSONObject noticias = item.getJSONObject(i);
 				feed.put(noticias);
-				//Elementos title, img, src
+				//Elementos title, img, src 
 			}
 			json.put("feed", feed);
 			System.out.println(json);

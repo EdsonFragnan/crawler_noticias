@@ -14,7 +14,7 @@ public class LendoXML {
 			String url = "http://revistaautoesporte.globo.com/rss/ultimas/feed.xml";
 			URL obj = new URL(url);
 			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-			con.setRequestMethod("GET");
+ 			con.setRequestMethod("GET");
 			BufferedReader in = new BufferedReader(
 					new InputStreamReader(con.getInputStream(), "UTF8"));
 			String inputLine;
