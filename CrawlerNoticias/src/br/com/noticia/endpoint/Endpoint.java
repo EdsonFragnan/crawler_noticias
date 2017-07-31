@@ -7,11 +7,8 @@ public class Endpoint {
 	       Endpoint.publish(
 	       "http://localhost:8080/ws/noticia", new NoticiaImpl());
 	       System.out.println(
-	       "\nWeb service published @ http://localhost:8080/ws/noticia");
+	       "\nWeb service publicado @ http://localhost:8080/ws/noticia");
 	       System.out.println("Rodando!");
 	   }
 
-	private static void publish(String string, NoticiaImpl noticiaImpl) {
-		// TODO Auto-generated method stub	
-	}
 }

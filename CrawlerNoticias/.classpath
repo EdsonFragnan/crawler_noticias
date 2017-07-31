@@ -1,52 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_144">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="cglib-nodep-2.2.jar"/>
-	<classpathentry kind="lib" path="dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="jdom-1.1.3.jar"/>
-	<classpathentry kind="lib" path="jdom2-2.0.5.jar"/>
-	<classpathentry kind="lib" path="jettison-1.2.jar"/>
-	<classpathentry kind="lib" path="joda-time-1.6.jar"/>
-	<classpathentry kind="lib" path="json-20140107.jar"/>
-	<classpathentry kind="lib" path="kxml2-2.3.0.jar"/>
-	<classpathentry kind="lib" path="kxml2-min-2.3.0.jar"/>
-	<classpathentry kind="lib" path="stax-1.2.0.jar"/>
-	<classpathentry kind="lib" path="stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="wstx-asl-3.2.7.jar"/>
-	<classpathentry kind="lib" path="xmlpull-1.1.3.1.jar"/>
-	<classpathentry kind="lib" path="xom-1.1.jar"/>
-	<classpathentry kind="lib" path="xpp3_min-1.1.4c.jar"/>
-	<classpathentry kind="lib" path="xstream-1.4.10.jar"/>
-<<<<<<< HEAD
-	<classpathentry kind="output" path="build/classes"/>
-=======
-	<classpathentry kind="lib" path="xmlpull-1.1.3.1.jar"/>
-	<classpathentry kind="lib" path="cglib-nodep-2.2.jar"/>
-	<classpathentry kind="lib" path="dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="jdom-1.1.3.jar"/>
-	<classpathentry kind="lib" path="jdom2-2.0.5.jar"/>
-	<classpathentry kind="lib" path="jettison-1.2.jar"/>
-	<classpathentry kind="lib" path="joda-time-1.6.jar"/>
-	<classpathentry kind="lib" path="kxml2-2.3.0.jar"/>
-	<classpathentry kind="lib" path="kxml2-min-2.3.0.jar"/>
-	<classpathentry kind="lib" path="stax-1.2.0.jar"/>
-	<classpathentry kind="lib" path="stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="wstx-asl-3.2.7.jar"/>
-	<classpathentry kind="lib" path="xom-1.1.jar"/>
-	<classpathentry kind="lib" path="json-20140107.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/jdom2-2.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/jettison-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/json-20140107.jar"/>
+	<classpathentry kind="lib" path="lib/kxml2-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/kxml2-min-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/stax-1.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="lib/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/xom-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.10.jar"/>
+	<classpathentry kind="lib" path="activemq-broker-5.8.0.jar"/>
+	<classpathentry kind="lib" path="activemq-client-5.8.0.jar"/>
+	<classpathentry kind="lib" path="activemq-openwire-legacy-5.8.0.jar"/>
+	<classpathentry kind="lib" path="antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="asm-3.3.1.jar"/>
+	<classpathentry kind="lib" path="commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="cxf-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-manifest.jar"/>
+	<classpathentry kind="lib" path="cxf-services-sts-core-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-services-ws-discovery-api-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-services-ws-discovery-service-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-services-wsn-api-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-services-wsn-core-2.7.18.jar"/>
+	<classpathentry kind="lib" path="cxf-xjc-boolean-3.0.2.jar"/>
+	<classpathentry kind="lib" path="cxf-xjc-bug671-3.0.2.jar"/>
+	<classpathentry kind="lib" path="cxf-xjc-dv-3.0.2.jar"/>
+	<classpathentry kind="lib" path="cxf-xjc-runtime-3.0.2.jar"/>
+	<classpathentry kind="lib" path="cxf-xjc-ts-3.0.2.jar"/>
+	<classpathentry kind="lib" path="ehcache-core-2.5.1.jar"/>
+	<classpathentry kind="lib" path="FastInfoset-1.2.13.jar"/>
+	<classpathentry kind="lib" path="geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="geronimo-javamail_1.4_spec-1.7.1.jar"/>
+	<classpathentry kind="lib" path="geronimo-jaxws_2.2_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="geronimo-servlet_3.0_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="hawtbuf-1.9.jar"/>
+	<classpathentry kind="lib" path="httpasyncclient-4.0-beta3.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="httpcore-nio-4.2.4.jar"/>
+	<classpathentry kind="lib" path="isorelax-20030108.jar"/>
+	<classpathentry kind="lib" path="javax.ws.rs-api-2.0-m10.jar"/>
+	<classpathentry kind="lib" path="jaxb-api-2.2.6.jar"/>
+	<classpathentry kind="lib" path="jaxb-impl-2.2.6.jar"/>
+	<classpathentry kind="lib" path="jaxb-xjc-2.2.6.jar"/>
+	<classpathentry kind="lib" path="jettison-1.3.7.jar"/>
+	<classpathentry kind="lib" path="jetty-continuation-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="jetty-http-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="jetty-io-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="jetty-security-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="jetty-server-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="jetty-util-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="js-1.7R2.jar"/>
+	<classpathentry kind="lib" path="mina-core-2.0.7.jar"/>
+	<classpathentry kind="lib" path="msv-core-2011.1.jar"/>
+	<classpathentry kind="lib" path="neethi-3.0.3.jar"/>
+	<classpathentry kind="lib" path="oauth-20100527.jar"/>
+	<classpathentry kind="lib" path="oauth-provider-20100527.jar"/>
+	<classpathentry kind="lib" path="opensaml-2.6.1.jar"/>
+	<classpathentry kind="lib" path="openws-1.5.1.jar"/>
+	<classpathentry kind="lib" path="relaxngDatatype-20020414.jar"/>
+	<classpathentry kind="lib" path="serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="slf4j-api-1.7.9.jar"/>
+	<classpathentry kind="lib" path="slf4j-jdk14-1.7.9.jar"/>
+	<classpathentry kind="lib" path="spring-aop-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-asm-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-beans-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-context-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-core-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-expression-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-jms-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-tx-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-web-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="woodstox-core-asl-4.4.1.jar"/>
+	<classpathentry kind="lib" path="wsdl4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="wss4j-1.6.19.jar"/>
+	<classpathentry kind="lib" path="xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="xmlschema-core-2.1.0.jar"/>
+	<classpathentry kind="lib" path="xmlsec-1.5.8.jar"/>
+	<classpathentry kind="lib" path="xmltooling-1.4.1.jar"/>
+	<classpathentry kind="lib" path="xsdlib-2010.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
->>>>>>> 25e019130e6cfd0386de8a88456a8a003300deb2
 </classpath>
