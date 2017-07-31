@@ -29,13 +29,12 @@ public class NoticiaMain {
 			JSONObject rss = noticiasJson.getJSONObject("rss");
 			JSONObject channel = rss.getJSONObject("channel");
 			JSONArray item = channel.getJSONArray("item");
-			JSONObject feeds = new JSONObject();
 			JSONArray feed = new JSONArray();
 			JSONObject json = new JSONObject();
 			for (int i=0; i < item.length(); i++) {
 				JSONObject noticias = item.getJSONObject(i);
-				feeds.put("item", noticias);
-				feed.put(feeds);
+				feed.put(noticias);
+				//Elementos title, img, src
 			}
 			json.put("feed", feed);
 			System.out.println(json);
